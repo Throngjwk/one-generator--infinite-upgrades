@@ -310,8 +310,8 @@ function getUpgradeCostFactor(name) {
   } else if (name == "strongerGenerators2") {
     returnValue = {
       type: "exponential",
-      base: ExpantaNum(70),
-      exponent: ExpantaNum("1e2048")
+      base: ExpantaNum("ee-6"),
+      exponent: ExpantaNum(3)
     };
   } else if (name == "strongerGenerators3") {
     returnValue = {
